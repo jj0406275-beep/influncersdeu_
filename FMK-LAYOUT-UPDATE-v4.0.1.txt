@@ -1,0 +1,16 @@
+Version 4.0.1
+
+FMK:
+- Einheitliche Bildflächen für alle drei Karten.
+- Originalbilder werden mit object-fit: contain vollständig angezeigt und nicht zugeschnitten.
+- Namen und Rollenbuttons beginnen bei allen Karten auf derselben Höhe.
+- Nach dem Voting bleibt die eigene Auswahl direkt in den drei markierten Karten sichtbar.
+- Die zusätzliche lange Sektion "Deine Wahl" wurde entfernt.
+- Community-Ergebniskarten verwenden ebenfalls einheitliche, nicht zugeschnittene Bildflächen.
+
+Telegram-Menü:
+- Unter "Spiele" werden Blind Ranking, Fuck Marry Kill und Budget Challenge angezeigt.
+
+Prüfung:
+- npx tsc --noEmit erfolgreich.
+- Next.js Build kompiliert erfolgreich und generiert 10/10 Seiten.

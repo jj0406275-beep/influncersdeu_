@@ -1,0 +1,20 @@
+VERSION 4.3 – EINHEITLICHE KATEGORIENVERWALTUNG
+
+Enthalten:
+- Einheitliches Grundmenü "Kategorie verwalten" für Blind Ranking, FMK, Budget und Influencerin erraten.
+- Gemeinsame Bereiche: Spiel starten, Medien verwalten, Umbenennen, Statistiken, Ergebnis-Einstellungen, Spieleinstellungen, Löschen, Zurück.
+- Bilder in Ergebnissen werden pro Kategorie separat aktiviert/deaktiviert.
+- Private Inline-Navigation löscht die vorherige Bot-Menünachricht und sendet eine neue.
+- Budget-Bezeichnung "Unterkategorie" wurde durch "Kategorie" ersetzt.
+- Bilder/GIF-Medientypen sind in der Datenbank für alle Spiele vorbereitet.
+- Ratespiel-Erstellungsassistent im Telegram-Bot:
+  1. Einzelne oder mehrere Influencerinnen wählen
+  2. neutralen Spielnamen eingeben
+  3. korrekten Lösungsnamen eingeben
+  4. Aliase/Handles hinterlegen
+  5. Bildausschnitte oder GIFs als Hinweise senden
+  6. weitere Influencerinnen ergänzen oder Kategorie abschließen
+- Ratespiel-Verwaltung für Influencerinnen und Hinweise.
+
+WICHTIG:
+Den Abschnitt "Version 4.3" aus supabase.sql im Supabase SQL Editor ausführen.

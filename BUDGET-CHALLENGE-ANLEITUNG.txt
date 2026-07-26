@@ -1,0 +1,39 @@
+INFLUENCERINNEN BUDGET CHALLENGE – VERSION 3.9
+
+1. DATENBANK
+Öffne in Supabase den SQL Editor und führe den neuen Abschnitt ab
+"Version 3.9: eigenständige Budget Challenge für Influencerinnen"
+aus der Datei supabase.sql aus. Alternativ kann die komplette supabase.sql erneut ausgeführt werden.
+
+2. SPIEL ERSTELLEN (privater Bot-Chat)
+/neuesbudget Meine Favoritinnen | 100
+
+Danach Bilder senden. Als Bildunterschrift jeweils:
+Name | Preis
+
+Beispiel:
+Anna | 30
+
+Mindestens 2 und maximal 20 Influencerinnen sind möglich.
+Danach:
+/fertigbudget
+
+Abbrechen:
+/abbrechenbudget
+
+3. SPIEL STARTEN (Telegram-Gruppe)
+/budget
+
+Oder ein bestimmtes Spiel:
+/budget Meine Favoritinnen
+
+4. SPIELREGELN
+- Spieler wählen ihre Favoritinnen aus.
+- Das Gesamtbudget darf nicht überschritten werden.
+- Jeder Telegram-Nutzer kann pro Gruppe und Spiel einmal abstimmen.
+- Nach der Abstimmung werden Community-Prozente und durchschnittliche Ausgaben angezeigt.
+
+5. TECHNISCHE TRENNUNG
+Frontend: app/budget/page.tsx
+APIs: app/api/budget/game/route.ts und app/api/budget/share/route.ts
+Tabellen: budget_games, budget_items, budget_votes, budget_vote_entries, budget_admin_sessions

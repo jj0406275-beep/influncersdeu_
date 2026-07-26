@@ -1,0 +1,15 @@
+Version 4.4.6
+
+Behoben:
+- Ratespiel lädt explizit ausgewählte Kategorien unabhängig vom globalen Aktiv-Status.
+- Antwortmodi free_text, multiple_choice und mixed werden zuverlässig gespeichert.
+- Gemischter Modus wechselt reproduzierbar zwischen Eingabe und Auswahl.
+- Multiple Choice fällt bei zu wenigen Alternativnamen sicher auf Texteingabe zurück.
+- Verbesserte Namenseingabe mit Handle-Hinweis, Tippfehlertoleranz, Ladezustand und Fehleranzeige.
+- Kategorien ohne Influencerinnen oder ohne Hinweise zeigen konkrete Fehlermeldungen.
+- Alle Bot-Callback-Kacheln wurden geprüft.
+- Fehlende Handler ergänzt: Budget-Eintrag, Budget umbenennen/löschen, Rate-Kategorie umbenennen/löschen, Aliase bearbeiten und Influencerin entfernen.
+
+Prüfungen:
+- 90 von 90 verwendeten Callback-Aktionen besitzen einen Handler.
+- TypeScript-Syntaxprüfung der geänderten Dateien erfolgreich.

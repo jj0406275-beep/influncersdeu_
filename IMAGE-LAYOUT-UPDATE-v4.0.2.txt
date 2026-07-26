@@ -1,0 +1,5 @@
+FMK und Budget Challenge:
+- Bilder werden vollständig im Original-Seitenverhältnis angezeigt.
+- Keine feste Bildhöhe und kein Zuschneiden.
+- Kürzere Bilder erhalten dynamisch Leerraum unter dem Bild.
+- Namen, Preise und Bedienelemente starten dadurch pro Ansicht auf derselben Höhe.

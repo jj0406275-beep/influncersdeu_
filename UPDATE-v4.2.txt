@@ -1,0 +1,7 @@
+Version 4.2
+- Budget-Bezeichnung vereinheitlicht: Kategorie statt Unterkategorie.
+- Private Inline-Menüs: alte Bot-Menünachricht wird beim Navigieren gelöscht, danach wird eine neue gesendet.
+- Ergebnisbilder pro Kategorie vorbereitet (send_images).
+- Neues Spiel "Influencerin erraten" mit freien Antworten oder Multiple Choice, Hinweisen und toleranter Schreibfehler-Erkennung.
+- Neue Tabellen und APIs in supabase.sql.
+Hinweis: Die erste Kategorie des neuen Spiels wird über die neuen guess_* Tabellen befüllt; der vollständige Telegram-Medienassistent folgt derselben Tabellenstruktur.

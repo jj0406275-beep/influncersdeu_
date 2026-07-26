@@ -1,0 +1,10 @@
+Version 4.1 – einheitliches Bot-Menü
+
+- Neuer zentraler Game-Hub statt langer Command-Liste
+- Einheitliches Menü für Blind Ranking, FMK und Budget Challenge
+- Eigener Bereich "Neues Spiel erstellen"
+- Eigener Bereich "Meine Spiele"
+- Eigener Bereich "Spiel starten"
+- Zurück- und Abbrechen-Buttons in den neuen Erstellungsabläufen
+- Budget-Erstellung als Assistent: Titel -> Budgetauswahl -> Bilder -> Abschluss
+- Bestehende Commands bleiben als optionale Schnellzugriffe kompatibel

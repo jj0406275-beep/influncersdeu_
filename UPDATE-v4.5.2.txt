@@ -1,0 +1,9 @@
+Version 4.5.2
+
+- Positionen im Position Ranking können frei benannt werden.
+- Bei der Erstellung wird nach genau einer Bezeichnung pro Influencerin gefragt.
+- Standardplätze bleiben als optionale Schnellauswahl verfügbar.
+- Positionsbezeichnungen können später in den Spieleinstellungen geändert werden.
+- Eigene Bezeichnungen erscheinen in der Mini-App und in Ergebnisnachrichten.
+- Bilder und GIFs werden vollständig im Original-Seitenverhältnis angezeigt und nicht zugeschnitten.
+- Im offenen Modus wird der Leerraum unter kürzeren Medien dynamisch ausgeglichen, damit Namen und Auswahlfelder auf gleicher Höhe beginnen.

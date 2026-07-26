@@ -1,0 +1,17 @@
+Version 4.5
+
+Ratespiel
+- Beim Erstellen wird der Antwortmodus direkt gewählt: Freitext, Auswahl oder gemischt.
+- Für jede Influencerin können eigene falsche Antwortnamen angegeben werden.
+- Automatische Ergänzung kann pro Influencerin an- oder ausgeschaltet werden.
+- Eigene Antwortnamen lassen sich später unter Influencerin verwalten bearbeiten.
+
+Neues Spiel: Position Ranking
+- Zwei Modi: Blind Ranking oder alle Influencerinnen vorher sichtbar.
+- Eigener Kategoriename und eigene Frage/Aufgabenstellung.
+- Bilder und GIFs mit vollständigem Seitenverhältnis.
+- Privater Start und sicherer Gruppenstart einschließlich Telegram-Themen.
+- Einheitliches Kategorie-Menü mit Medien, Umbenennen, Statistiken, Ergebnis- und Spieleinstellungen.
+- Ergebnisse werden je nach Startkontext privat oder in die Gruppe/das Ergebnis-Thema gesendet.
+
+Vor dem Deployment den Abschnitt "Version 4.5" aus supabase.sql in Supabase ausführen.

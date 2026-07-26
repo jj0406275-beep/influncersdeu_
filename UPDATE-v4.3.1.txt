@@ -1,0 +1,9 @@
+Version 4.3.1
+
+- Einzelmodus des Ratespiels: Nach der ersten Influencerin wird keine weitere Influencerin mehr angeboten.
+- Auch über die spätere Medienverwaltung kann im Einzelmodus keine zweite Influencerin angelegt werden.
+- Sammlungsmodus behält die Option "Weitere Influencerin".
+- Rate-Ergebnisse werden nach jeder Antwort mindestens als Text in den privaten Bot-Chat gesendet.
+- Ergebnistext enthält richtig/falsch, eigene Antwort, korrekte Lösung und Punkte.
+- Wenn "Bilder in Ergebnissen" für die Kategorie aktiv ist, wird zusätzlich das letzte Hinweis-/Lösungsmedium gesendet.
+- GIF/Animation wird dabei als Animation, ein Bild als Foto gesendet.

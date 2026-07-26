@@ -1,0 +1,8 @@
+Version 4.5.1 – Position Ranking vollständig getrennt
+
+- Position Ranking verwendet ausschließlich /position und /api/position/*.
+- Eigene Tabellen: position_games, position_items, position_votes, position_vote_entries.
+- Eigene Creator-Session: position_admin_sessions.
+- Beim Start eines Position Rankings wird eine eventuell offene Ratespiel-Session beendet.
+- Beim Start eines Ratespiels wird eine eventuell offene Position-Ranking-Session beendet.
+- Dadurch können Texte und Medien nicht mehr vom falschen Erstellungsassistenten verarbeitet werden.

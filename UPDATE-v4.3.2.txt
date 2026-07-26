@@ -1,0 +1,12 @@
+Version 4.3.2
+
+- Hinweisbutton heißt jetzt „Größeren Ausschnitt / Tipp zeigen“.
+- Ergebnis-Einstellung fragt klar, ob Bilder oder GIFs gesendet werden sollen.
+- Antwortmodus pro Rate-Kategorie: Namen eingeben, Namen auswählen oder gemischter Modus.
+- Multiple Choice nutzt zusätzliche Influencerinnen-Namen als Ablenkungen, auch bei Einzelspielen.
+- Telegram Mini App wird beim Start erweitert und reagiert auf Viewport-/Tastaturänderungen.
+- Nach einer Antwort verliert das Eingabefeld den Fokus und das Ergebnis wird zentriert.
+- Eingabefelder verwenden mindestens 16 px, um automatisches iOS-Zoomen zu vermeiden.
+
+Supabase:
+Den Abschnitt „Version 4.3.2“ aus supabase.sql ausführen.

@@ -1,0 +1,20 @@
+Blind Ranking Telegram v3.8 – vollständiger aktueller Stand
+
+Enthalten:
+- Blind Ranking Frontend und APIs
+- eigenständige FMK Mini App unter /fmk
+- eigenständige FMK APIs
+- aktueller Telegram-Webhook mit FMK-/start-Payload-Hotfix
+- aktuelles Supabase-Schema
+- keine falschen Dateien app/api/fmk/game.route.ts oder share.route.ts
+
+Upload:
+1. Bestehende Repository-Dateien löschen oder ein neues leeres Repository verwenden.
+2. Den INHALT dieses Projektordners hochladen (package.json muss im Repository-Hauptverzeichnis liegen).
+3. Commit erstellen.
+4. Vercel neu deployen lassen.
+
+Bereits geprüft:
+- npm ci erfolgreich
+- npx tsc --noEmit erfolgreich
+- next build: kompiliert erfolgreich und 8/8 statische Seiten generiert
